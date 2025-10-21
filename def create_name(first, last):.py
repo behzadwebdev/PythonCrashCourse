@@ -1,6 +1,6 @@
-def create_name(first, last):
-    first = first.capitalize()
-    last = last.capitalize()
-    return first + " " + last
-full_name = create_name("spongebob", "squarepants")
-print(full_name)
+def get_formatted_name(first_name, last_name):
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+musician = get_formatted_name('jimi', 'hendrix')
+print(musician)
+##############
